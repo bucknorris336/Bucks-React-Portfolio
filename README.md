@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+## Buck's React Portfolio
+
+### Table of Contents
+
+- [Description](#Description)
+- [Features](#Features)
+- [Instilation](#installation)
+- [Demo](#demo)
+- [Deployment](#deployment)
+- [Contributing](#Contributing)
+
+---
+
+### Description
+
+My portfolio uses React to showcase some projects I have worked on, along with my  resume. Feel free to use this site to see examples of my work, work I have collaborated on, and what I've learned while in the UNC Chapel-Hill full-stack Coding Bootcamp.
+
+---
+### Freatures
+
+* React
+* Bootstrap
+
+---
+
+### Installation
+
+💾
+
+Install dependencies with:
+
+`npm install`
+
+Requires:
+
+- `React`
+- `Bootstrap`
+
+---
+
+### Demo
+
+
+---
+
+## Deployment
+
+💻
+
+To see deployed site, click here: [Demo video](https://drive.google.com/file/d/1ua1-QQOKdArwzKH8qU-xBLDiQIHbmYY1/view?usp=sharing)
+
+---
+
+## Contributing
+
+[Buck Blocker](https://github.com/bucknorris336)
