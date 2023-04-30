@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./styles.css";
 export default function Porfolio() {
   return (
-    <div>
+    <div className="div-container">
       <h1>Porfolio Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.

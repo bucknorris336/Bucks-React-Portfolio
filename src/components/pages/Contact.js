@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import "./styles.css";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="div-container">
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
