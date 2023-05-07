@@ -1,13 +1,37 @@
 import React from "react";
-import "./pages/styles.css";
 
 export default function Footer() {
   return (
-    <><footer class="full-width text-center d-flex flex-row">
-
-      <a href /> “mailto:Buckblocker90@gmail.com”{">"} Email </a>
-      <a href="https://www.linkedin.com/in/buck-blocker-802a9124b/">
-        Linkin</a><a href="https://github.com/bucknorris336">Github</a></>>Github</a>
+    <footer className="footer">
+      <ul>
+        <li>
+          <a
+            href="https://github.com/bucknorris336"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/buck-blocker-802a9124b"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:buckblocker90@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fas fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
   );
 }
