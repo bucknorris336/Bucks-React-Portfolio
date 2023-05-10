@@ -1,15 +1,28 @@
 import React from "react";
-import calm from "../../images/calm.png";
-import mealplan from "../../images/mealplan.png";
-import techblog from "../../images/techblog.png";
-import weather from "../../images/weather.png";
+
+import { projectsList } from "../../assets/projectsList";
 
 export default function Portfolio() {
   return (
     <div className="container">
       <h1 className="center">Porfolio Page</h1>
       <section className="col-md-4 portfolio-grid">
-        <div>
+        {projectsList.map((project) => {
+          return (
+            <div key={project.name}>
+              <h3>{project.name}</h3>
+              <a href={project.githubLink}>
+                <img
+                  className="img-fluid"
+                  src={project.imageLink}
+                  alt="img poopoo"
+                />
+              </a>
+              <p>{project.desc}</p>
+            </div>
+          );
+        })}
+        {/* <div>
           <h3>calm</h3>
           <a href="https://www.example1.com">
             <img className="img-fluid" src={calm} alt="calm" />
@@ -37,7 +50,7 @@ export default function Portfolio() {
             <img className="img-fluid" src={weather} alt="weather" />
           </a>
           <p>Description for Image 4</p>
-        </div>
+        </div> */}
       </section>
     </div>
   );

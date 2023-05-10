@@ -27,24 +27,12 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
     console.log("input", inputType, inputValue);
-    // if (name.length === 0) {
-    //   setErrorMessage("Name is invalid");
-    // } else if (!message) {
-    //   setErrorMessage("Message is invalid");
-    // } else {
-    //   setErrorMessage("");
-    // }
 
     // Based on the input type, we set the state of either email, username, and password
     if (inputType === "email") {
       setEmail(inputValue);
     } else if (inputType === "name") {
       setName(inputValue);
-      // if (name.length === 0) {
-      //   setErrorMessage("Name is invalid");
-      // } else {
-      //   setErrorMessage("");
-      // }
     } else if (inputType === "message") {
       setMessage(inputValue);
     }
