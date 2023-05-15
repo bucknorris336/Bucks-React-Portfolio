@@ -1,57 +1,54 @@
 import React from "react";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { projectsList } from "../utils/projectsList.js";
+import { FaGithub } from "react-icons/fa";
 
-import { projectsList } from "../../assets/projectsList";
-
-export default function Portfolio() {
+const Portfolio = () => {
   return (
-    <div className="container">
-      <h1 className="center">Porfolio Page</h1>
-      <section className="col-md-4 portfolio-grid">
-        {projectsList.map((project) => {
-          return (
-            <div key={project.name}>
-              <h3>{project.name}</h3>
-              <a href={project.githubLink}>
-                <img
-                  className="img-fluid"
-                  src={project.imageLink}
-                  alt="img poopoo"
-                />
+    <Container>
+      <h2 className="mt-3">Portfolio</h2>
+      <Row>
+        {projectsList.map((project) => (
+          <Col
+            md={4}
+            className="m-3 card-container d-flex flex-column"
+            key={project.title}
+          >
+            <div>
+              <h4>{project.title}</h4>
+              <a href={project.liveSite} target="_blank" rel="noreferrer">
+                <Card style={{ height: "147px", overflow: "hidden" }}>
+                  <img
+                    src={project.imgSrc}
+                    alt={project.title}
+                    className="img-fluid"
+                  />
+                </Card>
               </a>
               <p>{project.desc}</p>
             </div>
-          );
-        })}
-        {/* <div>
-          <h3>calm</h3>
-          <a href="https://www.example1.com">
-            <img className="img-fluid" src={calm} alt="calm" />
-          </a>
-          <p>Description for Image 1</p>
-        </div>
-        <div>
-          <h3>mealplan</h3>
-          <a href="https://www.example2.com">
-            <img className="img-fluid" src={mealplan} alt="mealplan" />
-          </a>
-          <p>Description for Image 2</p>
-        </div>
-
-        <div>
-          <h3>techblog</h3>
-          <a href="https://www.example3.com">
-            <img className="img-fluid" src={techblog} alt="techblog" />
-          </a>
-          <p>Description for Image 3</p>
-        </div>
-        <div>
-          <h3>weather</h3>
-          <a href="https://www.example4.com">
-            <img className="img-fluid" src={weather} alt="weather" />
-          </a>
-          <p>Description for Image 4</p>
-        </div> */}
-      </section>
-    </div>
+            <Col
+              style={{
+                display: "flex",
+                justifyContent: "flex-start",
+                alignItems: "flex-end",
+                gap: "5px",
+              }}
+            >
+              <a href={project.githubLink} target="_blank" rel="noreferrer">
+                <Button variant="outline-dark">
+                  <FaGithub size={20} />
+                </Button>
+              </a>{" "}
+              <a href={project.liveSite} target="_blank" rel="noreferrer">
+                <Button variant="outline-dark">Live Site</Button>
+              </a>
+            </Col>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
-}
+};
+
+export default Portfolio;
