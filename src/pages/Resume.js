@@ -9,12 +9,20 @@ const Resume = () => {
     "CSS",
     "React",
     "Node.js",
+    "MongoDB",
+    "MySQL",
+    "GraphQL",
+    "Object-Oriented Programming (OOP)",
+    "Progressive Web Applications (PWAs)",
+    "GIT",
+    "Command Line",
+    "VS Code",
     // Add more proficiencies as needed
   ];
 
   return (
     <Container className="text-center" style={{ maxWidth: "400px" }}>
-      <h2 className="my-5">Resume</h2>
+      <h4 className="my-5">Proficiencies:</h4>
       <ListGroup>
         {proficiencies.map((proficiency, index) => (
           <ListGroup.Item key={index}>{proficiency}</ListGroup.Item>

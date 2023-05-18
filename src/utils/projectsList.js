@@ -75,12 +75,12 @@ export const projectsList = [
     liveSite: "https://salty-gorge-36612.herokuapp.com/",
   },
   {
-    title: "Bucks Portfolio",
+    title: "Paws and Claws",
     imgSrc:
-      "https://user-images.githubusercontent.com/62455130/238062028-e8f48780-37a0-47b4-b30c-65ed8b42932e.png",
-    desc: "A simple spash-page using html and css to practice using the languages.",
+      "https://user-images.githubusercontent.com/62455130/238466685-cbfc293a-de8a-44ea-b865-0ea2b391ab8a.png",
+    desc: "Paws and Claws is a web application that uses the React JavaScript library for building user interface and the GraphQL query language for handling data requests and responses..",
     techUsed: ["html", "css"],
-    githubLink: "https://github.com/bucknorris336/Bucks-Portfolio",
-    liveSite: "https://github.com/bucknorris336/Bucks-Portfolio",
+    githubLink: "https://github.com/akdevndesign/paws-and-claws",
+    liveSite: "https://github.com/akdevndesign/paws-and-claws",
   },
 ];
