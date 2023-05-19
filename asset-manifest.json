@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bucks-react-app/static/css/main.6d3e20e4.css",
+    "main.js": "/bucks-react-app/static/js/main.556b5480.js",
+    "static/media/resume.pdf": "/bucks-react-app/static/media/resume.4302422163239a60a56f.pdf",
+    "index.html": "/bucks-react-app/index.html",
+    "main.6d3e20e4.css.map": "/bucks-react-app/static/css/main.6d3e20e4.css.map",
+    "main.556b5480.js.map": "/bucks-react-app/static/js/main.556b5480.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d3e20e4.css",
+    "static/js/main.556b5480.js"
+  ]
+}
