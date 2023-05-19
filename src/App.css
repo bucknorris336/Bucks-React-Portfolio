@@ -65,9 +65,10 @@ a:hover {
   height: 100%;
   width: 100%;
 }
-/* background-color {
-  color: #2b2c2d;
-}
-text {
+.dark-mode {
+  background-color: #2b2c2d;
   color: antiquewhite;
-} */
+}
+.error-text {
+  color: red;
+}
