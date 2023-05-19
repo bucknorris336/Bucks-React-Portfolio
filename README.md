@@ -7,7 +7,7 @@
 - [Instilation](#installation)
 - [Demo](#demo)
 - [Deployment](#deployment)
-- [Lincense] (#lincense)
+- [Lincense](#lincense)
 - [Contributing](#Contributing)
 
 ---
