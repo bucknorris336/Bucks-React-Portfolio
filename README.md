@@ -118,7 +118,7 @@ Requires:
 
 💻
 
-To see deployed site, click here: [Demo video](https://drive.google.com/file/d/1ua1-QQOKdArwzKH8qU-xBLDiQIHbmYY1/view?usp=sharing)
+To see deployed site, click here: 
 
 ---
 
