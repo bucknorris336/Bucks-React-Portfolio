@@ -49,7 +49,7 @@ Requires:
 
 💻
 
-To see deployed site, click here: https://bucknorris336.github.io/AboutMe
+To see deployed site, click here: [https://bucknorris336.github.io/AboutMe](https://bucknorris336.github.io/Bucks-React-Portfolio/)
 
 ---
 
