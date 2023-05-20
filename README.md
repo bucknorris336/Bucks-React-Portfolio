@@ -41,6 +41,7 @@ Requires:
 ---
 
 ### Demo
+![screencapture-bucknorris336-github-io-AboutMe-2023-05-20-15_27_15](https://github.com/bucknorris336/Bucks-React-Portfolio/assets/62455130/dd41d76b-1c7c-48b0-ba87-dd2805824a28)
 
 ---
 
@@ -48,7 +49,7 @@ Requires:
 
 💻
 
-To see deployed site, click here:
+To see deployed site, click here: https://bucknorris336.github.io/AboutMe
 
 ---
 
